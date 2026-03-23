@@ -232,7 +232,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Construindo site estáticos com IA/artools_final/artools/index.html"
+        "src": "models/artools_final/index.html"
       },
       "tags": [
         "tool",
@@ -257,7 +257,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/ai-automation-17.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/ai-automation-17.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -282,7 +282,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/ai-social-automation.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/ai-social-automation.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -307,7 +307,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/canvas-visual.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/canvas-visual.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -332,7 +332,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/digital-architect.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/digital-architect.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -357,7 +357,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/flux-motion.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/flux-motion.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -382,7 +382,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/fluxora.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/fluxora.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -407,7 +407,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/futureui.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/futureui.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -432,7 +432,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/genlabs.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/genlabs.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -457,7 +457,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/glass-effect2/index.html"
+        "src": "models/vibe_referencias/design systems/glass-effect2/index.html"
       },
       "tags": [
         "vibe-design",
@@ -482,7 +482,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/glass-green-effect/index.html"
+        "src": "models/vibe_referencias/design systems/glass-green-effect/index.html"
       },
       "tags": [
         "vibe-design",
@@ -507,7 +507,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/glass-pricing/index.html"
+        "src": "models/vibe_referencias/design systems/glass-pricing/index.html"
       },
       "tags": [
         "vibe-design",
@@ -532,7 +532,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/green-museum/index.html"
+        "src": "models/vibe_referencias/design systems/green-museum/index.html"
       },
       "tags": [
         "vibe-design",
@@ -557,7 +557,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/hu169yr/index.html"
+        "src": "models/vibe_referencias/design systems/hu169yr/index.html"
       },
       "tags": [
         "vibe-design",
@@ -582,7 +582,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/imagenation.art/index.html"
+        "src": "models/vibe_referencias/design systems/imagenation.art/index.html"
       },
       "tags": [
         "vibe-design",
@@ -607,7 +607,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/lumina-video/index.html"
+        "src": "models/vibe_referencias/design systems/lumina-video/index.html"
       },
       "tags": [
         "vibe-design",
@@ -632,7 +632,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/parallax-clean/index.html"
+        "src": "models/vibe_referencias/design systems/parallax-clean/index.html"
       },
       "tags": [
         "vibe-design",
@@ -657,7 +657,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/parallax-geometry/index.html"
+        "src": "models/vibe_referencias/design systems/parallax-geometry/index.html"
       },
       "tags": [
         "vibe-design",
@@ -682,7 +682,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/volta-ev.aura.build/index.html"
+        "src": "models/vibe_referencias/design systems/volta-ev.aura.build/index.html"
       },
       "tags": [
         "vibe-design",
@@ -707,7 +707,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/white-medical/index.html"
+        "src": "models/vibe_referencias/design systems/white-medical/index.html"
       },
       "tags": [
         "vibe-design",
@@ -732,7 +732,7 @@
       "kind": "design-system",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/wix.com_studio_design_inspiration_spac/index.html"
+        "src": "models/vibe_referencias/design systems/wix.com_studio_design_inspiration_spac/index.html"
       },
       "tags": [
         "vibe-design",
@@ -757,7 +757,7 @@
       "kind": "animation",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/animation-clean/index.html"
+        "src": "models/vibe_referencias/referencias/animation-clean/index.html"
       },
       "tags": [
         "vibe-design",
@@ -782,7 +782,7 @@
       "kind": "animation",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/animations-gemini/index.html"
+        "src": "models/vibe_referencias/referencias/animations-gemini/index.html"
       },
       "tags": [
         "vibe-design",
@@ -807,7 +807,7 @@
       "kind": "animation",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/animations-gemini2/index.html"
+        "src": "models/vibe_referencias/referencias/animations-gemini2/index.html"
       },
       "tags": [
         "vibe-design",
@@ -832,7 +832,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/cool-dashboard/index.html"
+        "src": "models/vibe_referencias/referencias/cool-dashboard/index.html"
       },
       "tags": [
         "vibe-design",
@@ -857,7 +857,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/dashboard-list/index.html"
+        "src": "models/vibe_referencias/referencias/dashboard-list/index.html"
       },
       "tags": [
         "vibe-design",
@@ -882,7 +882,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/glass-effect/index.html"
+        "src": "models/vibe_referencias/referencias/glass-effect/index.html"
       },
       "tags": [
         "vibe-design",
@@ -907,7 +907,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/green-site/index.html"
+        "src": "models/vibe_referencias/referencias/green-site/index.html"
       },
       "tags": [
         "vibe-design",
@@ -932,7 +932,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/instagram-slides/index.html"
+        "src": "models/vibe_referencias/referencias/instagram-slides/index.html"
       },
       "tags": [
         "vibe-design",
@@ -957,7 +957,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/marketplace-light/index.html"
+        "src": "models/vibe_referencias/referencias/marketplace-light/index.html"
       },
       "tags": [
         "vibe-design",
@@ -982,7 +982,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/pagina-de-captura/index.html"
+        "src": "models/vibe_referencias/referencias/pagina-de-captura/index.html"
       },
       "tags": [
         "vibe-design",
@@ -1007,7 +1007,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/photographer-portifolio/index.html"
+        "src": "models/vibe_referencias/referencias/photographer-portifolio/index.html"
       },
       "tags": [
         "vibe-design",
@@ -1032,7 +1032,7 @@
       "kind": "component",
       "preview": {
         "type": "iframe",
-        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/sidebar/index.html"
+        "src": "models/vibe_referencias/referencias/sidebar/index.html"
       },
       "tags": [
         "vibe-design",
