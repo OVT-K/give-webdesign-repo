@@ -254,7 +254,7 @@
       "id": "import-fa9382ba",
       "name": "Ai Automation 17",
       "nameEn": "Ai Automation 17",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/ai-automation-17.aura.build/index.html"
@@ -279,7 +279,7 @@
       "id": "import-1b05fa25",
       "name": "Ai Social Automation",
       "nameEn": "Ai Social Automation",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/ai-social-automation.aura.build/index.html"
@@ -304,7 +304,7 @@
       "id": "import-40315eee",
       "name": "Canvas Visual",
       "nameEn": "Canvas Visual",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/canvas-visual.aura.build/index.html"
@@ -329,7 +329,7 @@
       "id": "import-7a948b68",
       "name": "Digital Architect",
       "nameEn": "Digital Architect",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/digital-architect.aura.build/index.html"
@@ -354,7 +354,7 @@
       "id": "import-9bd314ee",
       "name": "Flux Motion",
       "nameEn": "Flux Motion",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/flux-motion.aura.build/index.html"
@@ -379,7 +379,7 @@
       "id": "import-ff920a6c",
       "name": "Fluxora",
       "nameEn": "Fluxora",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/fluxora.aura.build/index.html"
@@ -404,7 +404,7 @@
       "id": "import-d43bcdbe",
       "name": "Futureui",
       "nameEn": "Futureui",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/futureui.aura.build/index.html"
@@ -429,7 +429,7 @@
       "id": "import-55e2d229",
       "name": "Genlabs",
       "nameEn": "Genlabs",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/genlabs.aura.build/index.html"
@@ -454,7 +454,7 @@
       "id": "import-a260f22e",
       "name": "Glass Effect2",
       "nameEn": "Glass Effect2",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/glass-effect2/index.html"
@@ -479,7 +479,7 @@
       "id": "import-017067ac",
       "name": "Glass Green Effect",
       "nameEn": "Glass Green Effect",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/glass-green-effect/index.html"
@@ -504,7 +504,7 @@
       "id": "import-14216e6c",
       "name": "Glass Pricing",
       "nameEn": "Glass Pricing",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/glass-pricing/index.html"
@@ -529,7 +529,7 @@
       "id": "import-d0c1f35f",
       "name": "Green Museum",
       "nameEn": "Green Museum",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/green-museum/index.html"
@@ -554,7 +554,7 @@
       "id": "import-cc3daea2",
       "name": "Hu169Yr",
       "nameEn": "Hu169Yr",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/hu169yr/index.html"
@@ -579,7 +579,7 @@
       "id": "import-1aa87057",
       "name": "Imagenation.Art",
       "nameEn": "Imagenation.Art",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/imagenation.art/index.html"
@@ -604,7 +604,7 @@
       "id": "import-20d37d67",
       "name": "Lumina Video",
       "nameEn": "Lumina Video",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/lumina-video/index.html"
@@ -629,7 +629,7 @@
       "id": "import-7f2c93db",
       "name": "Parallax Clean",
       "nameEn": "Parallax Clean",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/parallax-clean/index.html"
@@ -654,7 +654,7 @@
       "id": "import-3f4cee90",
       "name": "Parallax Geometry",
       "nameEn": "Parallax Geometry",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/parallax-geometry/index.html"
@@ -679,7 +679,7 @@
       "id": "import-d7122675",
       "name": "Volta Ev",
       "nameEn": "Volta Ev",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/volta-ev.aura.build/index.html"
@@ -704,7 +704,7 @@
       "id": "import-1338bcd5",
       "name": "White Medical",
       "nameEn": "White Medical",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/white-medical/index.html"
@@ -729,7 +729,7 @@
       "id": "import-405bd087",
       "name": "Wix.Com_Studio_Design_Inspiration_Spac",
       "nameEn": "Wix.Com_Studio_Design_Inspiration_Spac",
-      "kind": "design-system",
+      "kind": "component",
       "preview": {
         "type": "iframe",
         "src": "models/vibe_referencias/design systems/wix.com_studio_design_inspiration_spac/index.html"
@@ -1048,6 +1048,500 @@
       "tech": [],
       "source": "external",
       "highlight": "Imported external reference: Sidebar",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-6a799cc3",
+      "name": "Ai Automation 17 - Design System",
+      "nameEn": "Ai Automation 17 - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/ai-automation-17.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Ai Automation 17",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-f1a8f39b",
+      "name": "Ai Social Automation - Design System",
+      "nameEn": "Ai Social Automation - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/ai-social-automation.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Ai Social Automation",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-ca6db575",
+      "name": "Canvas Visual - Design System",
+      "nameEn": "Canvas Visual - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/canvas-visual.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Canvas Visual",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-51c3e08e",
+      "name": "Digital Architect - Design System",
+      "nameEn": "Digital Architect - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/digital-architect.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Digital Architect",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-7a486f01",
+      "name": "Flux Motion - Design System",
+      "nameEn": "Flux Motion - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/flux-motion.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Flux Motion",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-f3a0835b",
+      "name": "Fluxora - Design System",
+      "nameEn": "Fluxora - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/fluxora.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Fluxora",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-84e377e9",
+      "name": "Futureui - Design System",
+      "nameEn": "Futureui - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/futureui.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Futureui",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-46f344c3",
+      "name": "Genlabs - Design System",
+      "nameEn": "Genlabs - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/genlabs.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Genlabs",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-624cb20c",
+      "name": "Glass Effect2 - Design System",
+      "nameEn": "Glass Effect2 - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/glass-effect2/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Glass Effect2",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-d6f1cfc1",
+      "name": "Glass Green Effect - Design System",
+      "nameEn": "Glass Green Effect - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/glass-green-effect/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Glass Green Effect",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-fcb31d0c",
+      "name": "Glass Pricing - Design System",
+      "nameEn": "Glass Pricing - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/glass-pricing/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Glass Pricing",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-3dc37ac9",
+      "name": "Green Museum - Design System",
+      "nameEn": "Green Museum - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/green-museum/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Green Museum",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-3847f14a",
+      "name": "Hu169Yr - Design System",
+      "nameEn": "Hu169Yr - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/hu169yr/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Hu169Yr",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-ec884073",
+      "name": "Lumina Video - Design System",
+      "nameEn": "Lumina Video - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/lumina-video/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Lumina Video",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-65e28f8c",
+      "name": "Parallax Clean - Design System",
+      "nameEn": "Parallax Clean - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/parallax-clean/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Parallax Clean",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-a600e662",
+      "name": "Parallax Geometry - Design System",
+      "nameEn": "Parallax Geometry - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/parallax-geometry/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Parallax Geometry",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-4b6c3e27",
+      "name": "Volta Ev - Design System",
+      "nameEn": "Volta Ev - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/volta-ev.aura.build/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Volta Ev",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-725e13d7",
+      "name": "White Medical - Design System",
+      "nameEn": "White Medical - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/white-medical/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for White Medical",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ds-c6ce5b23",
+      "name": "Wix.Com_Studio_Design_Inspiration_Spac - Design System",
+      "nameEn": "Wix.Com_Studio_Design_Inspiration_Spac - Design System",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "models/vibe_referencias/design systems/wix.com_studio_design_inspiration_spac/design-system.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura",
+        "design-system"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Design system reference for Wix.Com_Studio_Design_Inspiration_Spac",
       "updatedAt": "2026-03-23"
     }
   ]
