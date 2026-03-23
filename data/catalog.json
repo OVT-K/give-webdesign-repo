@@ -1,0 +1,1054 @@
+{
+  "version": "1",
+  "items": [
+    {
+      "id": "give-tokens-core",
+      "name": "GIVE — Tokens de base",
+      "nameEn": "GIVE Core Tokens",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "samples/demo.html"
+      },
+      "tags": [
+        "tokens",
+        "dark-ui",
+        "spacing",
+        "typography",
+        "reference"
+      ],
+      "colors": [
+        "dark",
+        "amber",
+        "teal"
+      ],
+      "framework": [
+        "CSS"
+      ],
+      "tech": [
+        "Design tokens",
+        "CSS variables"
+      ],
+      "source": "internal",
+      "links": {
+        "docs": "https://example.com/docs"
+      },
+      "highlight": "Base de tokens compartilhados: espaçamento, tipografia e cores semânticas para produtos web.",
+      "highlightEn": "Shared token foundation: spacing, typography, and semantic colors for web products.",
+      "updatedAt": "2025-03-01",
+      "author": "GIVE"
+    },
+    {
+      "id": "palette-aurora",
+      "name": "Paleta Aurora",
+      "nameEn": "Aurora Palette",
+      "kind": "color-palette",
+      "preview": {
+        "type": "image",
+        "src": "samples/palette-aurora.svg",
+        "alt": "Faixa de cores Aurora"
+      },
+      "tags": [
+        "gradient",
+        "brand",
+        "accessible",
+        "dark-ui"
+      ],
+      "colors": [
+        "teal",
+        "purple",
+        "dark"
+      ],
+      "swatches": [
+        {
+          "hex": "#0f766e",
+          "label": "Teal 700"
+        },
+        {
+          "hex": "#14b8a6",
+          "label": "Teal 500"
+        },
+        {
+          "hex": "#f59e0b",
+          "label": "Amber 500"
+        },
+        {
+          "hex": "#7c3aed",
+          "label": "Violet 600"
+        },
+        {
+          "hex": "#0c1222",
+          "label": "Ink"
+        }
+      ],
+      "framework": [],
+      "tech": [
+        "WCAG"
+      ],
+      "source": "internal",
+      "highlight": "Paleta com contraste verificado para interfaces escuras e destaques em âmbar e teal.",
+      "highlightEn": "Contrast-checked palette for dark UIs with amber and teal accents.",
+      "updatedAt": "2025-03-10",
+      "author": "Design Ops"
+    },
+    {
+      "id": "cmp-button-primary",
+      "name": "Botão primário",
+      "nameEn": "Primary button",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "samples/button-demo.html"
+      },
+      "tags": [
+        "button",
+        "cta",
+        "microinteraction",
+        "accessible"
+      ],
+      "colors": [
+        "amber",
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [
+        "Focus ring",
+        "Reduced motion"
+      ],
+      "source": "internal",
+      "links": {
+        "figma": "https://www.figma.com"
+      },
+      "highlight": "Componente de botão com estados hover, focus e disabled alinhados ao DS.",
+      "highlightEn": "Button component with hover, focus, and disabled states aligned to the DS.",
+      "updatedAt": "2025-03-12",
+      "author": "GIVE"
+    },
+    {
+      "id": "motion-fade-up",
+      "name": "Animação — Fade up",
+      "nameEn": "Motion — Fade up",
+      "kind": "animation",
+      "preview": {
+        "type": "code",
+        "language": "css",
+        "code": "@keyframes give-fade-up {\n  from {\n    opacity: 0;\n    transform: translateY(12px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n.give-fade-up {\n  animation: give-fade-up 0.45s cubic-bezier(0.4, 0, 0.2, 1) both;\n}\n\n@media (prefers-reduced-motion: reduce) {\n  .give-fade-up {\n    animation: none;\n  }\n}"
+      },
+      "tags": [
+        "scroll-animations",
+        "microinteraction",
+        "accessible",
+        "css"
+      ],
+      "colors": [
+        "neutral"
+      ],
+      "framework": [
+        "CSS"
+      ],
+      "tech": [
+        "Keyframes",
+        "prefers-reduced-motion"
+      ],
+      "source": "internal",
+      "highlight": "Entrada suave com respeito a prefers-reduced-motion.",
+      "highlightEn": "Smooth entrance with prefers-reduced-motion support.",
+      "updatedAt": "2025-03-15",
+      "author": "GIVE"
+    },
+    {
+      "id": "style-editorial-typography",
+      "name": "Estilo editorial — Tipografia",
+      "nameEn": "Editorial style — Typography",
+      "kind": "style",
+      "preview": {
+        "type": "iframe",
+        "src": "samples/editorial-type.html"
+      },
+      "tags": [
+        "editorial",
+        "typography",
+        "light-ui",
+        "luxury"
+      ],
+      "colors": [
+        "light",
+        "neutral"
+      ],
+      "framework": [
+        "CSS"
+      ],
+      "tech": [
+        "clamp()",
+        "Variable fonts"
+      ],
+      "source": "community",
+      "highlight": "Diretrizes de escala tipográfica fluida para landing pages editoriais.",
+      "highlightEn": "Fluid type scale guidelines for editorial landing pages.",
+      "updatedAt": "2025-03-18",
+      "author": "Community"
+    },
+    {
+      "id": "ref-external-storybook",
+      "name": "Referência — Storybook (exemplo externo)",
+      "nameEn": "Reference — Storybook (external sample)",
+      "kind": "component",
+      "preview": {
+        "type": "image",
+        "src": "samples/storybook-placeholder.svg",
+        "alt": "Placeholder Storybook"
+      },
+      "tags": [
+        "storybook",
+        "documentation",
+        "reference"
+      ],
+      "colors": [
+        "neutral",
+        "light"
+      ],
+      "framework": [
+        "React"
+      ],
+      "tech": [
+        "Storybook"
+      ],
+      "source": "external",
+      "links": {
+        "storybook": "https://storybook.js.org"
+      },
+      "highlight": "Exemplo de entrada com origem externa e link para documentação.",
+      "highlightEn": "Sample entry with external origin and documentation link.",
+      "updatedAt": "2025-03-20",
+      "author": "—"
+    },
+    {
+      "id": "import-8efc5961",
+      "name": "Artools Final",
+      "nameEn": "Artools Final",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Construindo site estáticos com IA/artools_final/artools/index.html"
+      },
+      "tags": [
+        "tool",
+        "static-site"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Artools Final",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-fa9382ba",
+      "name": "Ai Automation 17",
+      "nameEn": "Ai Automation 17",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/ai-automation-17.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Ai Automation 17",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-1b05fa25",
+      "name": "Ai Social Automation",
+      "nameEn": "Ai Social Automation",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/ai-social-automation.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Ai Social Automation",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-40315eee",
+      "name": "Canvas Visual",
+      "nameEn": "Canvas Visual",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/canvas-visual.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Canvas Visual",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-7a948b68",
+      "name": "Digital Architect",
+      "nameEn": "Digital Architect",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/digital-architect.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Digital Architect",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-9bd314ee",
+      "name": "Flux Motion",
+      "nameEn": "Flux Motion",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/flux-motion.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Flux Motion",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-ff920a6c",
+      "name": "Fluxora",
+      "nameEn": "Fluxora",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/fluxora.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Fluxora",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-d43bcdbe",
+      "name": "Futureui",
+      "nameEn": "Futureui",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/futureui.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Futureui",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-55e2d229",
+      "name": "Genlabs",
+      "nameEn": "Genlabs",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/genlabs.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Genlabs",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-a260f22e",
+      "name": "Glass Effect2",
+      "nameEn": "Glass Effect2",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/glass-effect2/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Glass Effect2",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-017067ac",
+      "name": "Glass Green Effect",
+      "nameEn": "Glass Green Effect",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/glass-green-effect/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Glass Green Effect",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-14216e6c",
+      "name": "Glass Pricing",
+      "nameEn": "Glass Pricing",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/glass-pricing/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Glass Pricing",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-d0c1f35f",
+      "name": "Green Museum",
+      "nameEn": "Green Museum",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/green-museum/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Green Museum",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-cc3daea2",
+      "name": "Hu169Yr",
+      "nameEn": "Hu169Yr",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/hu169yr/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Hu169Yr",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-1aa87057",
+      "name": "Imagenation.Art",
+      "nameEn": "Imagenation.Art",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/imagenation.art/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Imagenation.Art",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-20d37d67",
+      "name": "Lumina Video",
+      "nameEn": "Lumina Video",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/lumina-video/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Lumina Video",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-7f2c93db",
+      "name": "Parallax Clean",
+      "nameEn": "Parallax Clean",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/parallax-clean/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Parallax Clean",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-3f4cee90",
+      "name": "Parallax Geometry",
+      "nameEn": "Parallax Geometry",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/parallax-geometry/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Parallax Geometry",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-d7122675",
+      "name": "Volta Ev",
+      "nameEn": "Volta Ev",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/volta-ev.aura.build/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Volta Ev",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-1338bcd5",
+      "name": "White Medical",
+      "nameEn": "White Medical",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/white-medical/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: White Medical",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-405bd087",
+      "name": "Wix.Com_Studio_Design_Inspiration_Spac",
+      "nameEn": "Wix.Com_Studio_Design_Inspiration_Spac",
+      "kind": "design-system",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/design systems/wix.com_studio_design_inspiration_spac/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "aura"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Wix.Com_Studio_Design_Inspiration_Spac",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-4ea8167e",
+      "name": "Animation Clean",
+      "nameEn": "Animation Clean",
+      "kind": "animation",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/animation-clean/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Animation Clean",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-8f1513a1",
+      "name": "Animations Gemini",
+      "nameEn": "Animations Gemini",
+      "kind": "animation",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/animations-gemini/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Animations Gemini",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-7b58d2b0",
+      "name": "Animations Gemini2",
+      "nameEn": "Animations Gemini2",
+      "kind": "animation",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/animations-gemini2/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Animations Gemini2",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-815c2332",
+      "name": "Cool Dashboard",
+      "nameEn": "Cool Dashboard",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/cool-dashboard/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Cool Dashboard",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-6afa989e",
+      "name": "Dashboard List",
+      "nameEn": "Dashboard List",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/dashboard-list/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Dashboard List",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-e9ae91e3",
+      "name": "Glass Effect",
+      "nameEn": "Glass Effect",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/glass-effect/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Glass Effect",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-61459f51",
+      "name": "Green Site",
+      "nameEn": "Green Site",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/green-site/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Green Site",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-e097feba",
+      "name": "Instagram Slides",
+      "nameEn": "Instagram Slides",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/instagram-slides/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Instagram Slides",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-3e8a2ef9",
+      "name": "Marketplace Light",
+      "nameEn": "Marketplace Light",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/marketplace-light/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Marketplace Light",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-eaa433d0",
+      "name": "Pagina De Captura",
+      "nameEn": "Pagina De Captura",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/pagina-de-captura/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Pagina De Captura",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-2035e3a7",
+      "name": "Photographer Portifolio",
+      "nameEn": "Photographer Portifolio",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/photographer-portifolio/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Photographer Portifolio",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "import-aeea6447",
+      "name": "Sidebar",
+      "nameEn": "Sidebar",
+      "kind": "component",
+      "preview": {
+        "type": "iframe",
+        "src": "file:///c:/Users/u/Desktop/Antigravity projects/06 - Cursos/Design AI/Fundamentos de Vibe Design/Banco de referencias/referencias/sidebar/index.html"
+      },
+      "tags": [
+        "vibe-design",
+        "reference"
+      ],
+      "colors": [
+        "dark"
+      ],
+      "framework": [
+        "HTML",
+        "CSS"
+      ],
+      "tech": [],
+      "source": "external",
+      "highlight": "Imported external reference: Sidebar",
+      "updatedAt": "2026-03-23"
+    }
+  ]
+}

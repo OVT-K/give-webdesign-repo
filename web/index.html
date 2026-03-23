@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIVE — Web Design Repository</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="give-header">
+    <div class="give-logo">
+      <div class="give-logo-mark" aria-hidden="true">G</div>
+      <div class="give-logo-text">
+        <span class="give-logo-title">GIVE</span>
+        <span class="give-logo-subtitle">Premium UI Library · Visual Mastery</span>
+      </div>
+    </div>
+    <div class="give-stats">
+      <div class="give-stat">
+        <div class="give-stat-number" id="stat-total">0</div>
+        <div class="give-stat-label">Itens</div>
+      </div>
+      <div class="give-stat">
+        <div class="give-stat-number" id="stat-filtered">—</div>
+        <div class="give-stat-label">Visíveis</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="give-hero">
+    <div class="give-hero-inner">
+      <h1>Catálogo definitivo de <span>Premium UI</span></h1>
+      <p>Explore um repositório interativo com estética dark brutalista. Consulte designs system, paletas minimalistas e componentes com glassmorphism avançado.</p>
+      <div class="give-hero-libs" role="navigation" aria-label="Bibliotecas por tipo">
+        <button type="button" class="lib-chip" data-kind-filter="all">Todos</button>
+        <button type="button" class="lib-chip" data-kind-filter="design-system">Design Systems</button>
+        <button type="button" class="lib-chip" data-kind-filter="color-palette">Paletas</button>
+        <button type="button" class="lib-chip" data-kind-filter="component">Componentes</button>
+        <button type="button" class="lib-chip" data-kind-filter="style">Estilos</button>
+        <button type="button" class="lib-chip" data-kind-filter="animation">Animações</button>
+      </div>
+    </div>
+  </section>
+
+  <aside class="give-contribute" aria-label="Contribuir">
+    <div class="give-contribute-inner">
+      <div class="give-contribute-title">Contribuir</div>
+      <p class="give-contribute-desc">Importe JSON validado, exporte o catálogo completo ou só os itens filtrados. Documentação em <code>docs/CONTRIBUTING.md</code>.</p>
+      <div class="give-contribute-actions">
+        <button type="button" class="btn btn-secondary" id="btn-new-entry">Nova entrada</button>
+        <label class="btn btn-secondary">
+          <input type="file" id="import-file" accept="application/json,.json" hidden />
+          Importar JSON
+        </label>
+        <select id="import-merge-mode" class="give-select" title="Modo de mesclagem">
+          <option value="replace">Substituir por ID</option>
+          <option value="skip">Ignorar IDs existentes</option>
+        </select>
+        <button type="button" class="btn btn-primary" id="btn-export-full">Exportar catálogo completo</button>
+        <button type="button" class="btn btn-ghost" id="btn-export-filtered">Exportar visíveis</button>
+        <button type="button" class="btn btn-ghost" id="btn-save-fs" hidden title="Gravar catalog.json (Chrome/Edge)">Salvar em disco…</button>
+      </div>
+      <div id="import-status" class="give-status" role="status" aria-live="polite"></div>
+    </div>
+  </aside>
+
+  <div class="give-filters" id="filters">
+    <div class="filters-row">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input class="search-input" type="search" id="search-input" placeholder="Pesquisar nome, descrição, tags, tech…" autocomplete="off" />
+      </div>
+      <div class="filter-sep"></div>
+      <div class="filter-group">
+        <span class="filter-label">Tipo</span>
+        <div id="kind-chips"></div>
+      </div>
+      <div class="filter-sep"></div>
+      <div class="filter-group">
+        <span class="filter-label">Origem</span>
+        <button type="button" class="chip active" data-source="all">Todas</button>
+        <button type="button" class="chip" data-source="internal">Interna</button>
+        <button type="button" class="chip" data-source="external">Externa</button>
+        <button type="button" class="chip" data-source="community">Comunidade</button>
+      </div>
+      <div class="filter-sep"></div>
+      <label class="tag-mode">
+        <input type="checkbox" id="tag-mode-any" />
+        <span>Qualquer tag</span>
+      </label>
+      <button type="button" class="btn-clear hidden" id="btn-clear">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+        Limpar filtros
+      </button>
+    </div>
+    <div class="tags-row" id="color-chips-row"></div>
+    <div class="tags-row" id="tag-chips-row"></div>
+  </div>
+
+  <div class="results-bar">
+    <div class="results-count" id="results-count">Mostrando <strong>0</strong> itens</div>
+    <div class="view-toggle">
+      <button type="button" class="view-btn active" id="view-grid" title="Grade" aria-label="Modo grade">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/>
+          <rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/>
+        </svg>
+      </button>
+      <button type="button" class="view-btn" id="view-list" title="Lista" aria-label="Modo lista">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <main class="give-grid" id="give-grid"></main>
+
+  <section class="give-about" id="about">
+    <div class="give-about-kicker">O Conceito</div>
+    <h2 class="give-about-title">Living System & Minimalismo</h2>
+    <p class="give-about-lead">O repositório foi reimaginado como uma galeria de arte brutalista com forte influência dark mode e tons de cinza puro.</p>
+    <div class="give-about-grid">
+      <div class="about-card">
+        <div class="about-card-title">The Playful Serious</div>
+        <p class="about-card-text">Interações sutis transformam a navegação no catálogo. Cada componente possui micro-animações (hover magnético e glows suaves) para engajar a exploração.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-card-title">The Unexpected Medium</div>
+        <p class="about-card-text">Em vez de um painel aborrecido de SaaS, a UI serve como um laboratório visual interativo. Utilize filtros que aplicam "lentes" e isolam os elementos como obra principal.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-card-title">Colaboração Git Base</div>
+        <p class="about-card-text">Importe ou exporte JSON estruturado. Abra PRs em <code>data/catalog.json</code> para integrar curadorias ao sistema unificado.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-card-title">Glassmorphism Ativo</div>
+        <p class="about-card-text">Filtros dinâmicos e renders em iframe beneficiam-se de pesados efeitos de blur e overlays prateados, dando peso e luxo a paletas de cores simples.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="give-footer">
+    GIVE — Web Design Repository ·
+    <span id="footer-count">0</span> itens catalogados
+  </footer>
+
+  <!-- Preview modal -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-box" id="modal-box">
+      <div class="modal-header">
+        <div class="modal-title-block">
+          <div class="modal-title" id="modal-title">—</div>
+          <div class="modal-subtitle" id="modal-subtitle">—</div>
+        </div>
+        <div class="modal-actions">
+          <a class="modal-btn-open" id="modal-open-link" href="#" target="_blank" rel="noopener" hidden>Abrir em nova aba</a>
+          <button type="button" class="modal-close" id="modal-close" aria-label="Fechar preview">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <div class="modal-iframe-wrap" id="modal-iframe-wrap">
+          <div class="modal-loading" id="modal-loading">
+            <div class="spinner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit modal -->
+  <div class="modal-overlay" id="edit-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-title" hidden>
+    <div class="modal-box modal-box-edit" id="edit-box">
+      <div class="modal-header">
+        <div class="modal-title-block">
+          <div class="modal-title" id="edit-title">Editar entrada</div>
+          <div class="modal-subtitle" id="edit-subtitle">Alterações ficam na memória até exportar</div>
+        </div>
+        <button type="button" class="modal-close" id="edit-close" aria-label="Fechar editor">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <path d="M18 6 6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="edit-form" id="edit-form"></div>
+      <div class="edit-footer">
+        <button type="button" class="btn btn-ghost" id="edit-cancel">Cancelar</button>
+        <button type="button" class="btn btn-primary" id="edit-save">Aplicar ao catálogo</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>

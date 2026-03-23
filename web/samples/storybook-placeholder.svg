@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200">
+  <rect width="560" height="200" fill="#f4f4f5" rx="12"/>
+  <rect x="24" y="24" width="120" height="16" fill="#d4d4d8" rx="4"/>
+  <rect x="24" y="56" width="512" height="120" fill="#fff" stroke="#e4e4e7" rx="8"/>
+  <text x="280" y="120" text-anchor="middle" fill="#71717a" font-family="system-ui,sans-serif" font-size="13">Storybook · preview</text>
+</svg>

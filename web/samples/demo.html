@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIVE — Demo tokens</title>
+  <style>
+    :root {
+      --bg: #0c1222;
+      --card: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.1);
+      --text: #e8e6e3;
+      --muted: #8b8680;
+      --accent: #f59e0b;
+      --accent-2: #14b8a6;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      gap: 0.75rem;
+      max-width: 560px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+    }
+    h1 { font-size: 1.1rem; margin-bottom: 0.35rem; }
+    p { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+    .row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; }
+    .pill {
+      font-size: 0.65rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 999px;
+      background: rgba(245, 158, 11, 0.15);
+      color: #fcd34d;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+    }
+    .pill.teal {
+      background: rgba(20, 184, 166, 0.12);
+      color: #5eead4;
+      border-color: rgba(20, 184, 166, 0.35);
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="card">
+      <h1>Tokens de base</h1>
+      <p>Pré-visualização embutida do repositório GIVE — espaçamento, superfícies e acentos âmbar/teal.</p>
+      <div class="row">
+        <span class="pill">spacing-4</span>
+        <span class="pill teal">radius-12</span>
+        <span class="pill">--accent</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://give.local/catalog.schema.json",
+  "title": "GIVE Web Design Repository Catalog",
+  "type": "object",
+  "required": ["version", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Format version of the catalog file."
+    },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/item" }
+    }
+  },
+  "$defs": {
+    "preview": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["iframe", "image", "code"]
+        },
+        "src": {
+          "type": "string",
+          "description": "URL or path for iframe or image previews."
+        },
+        "alt": { "type": "string" },
+        "language": {
+          "type": "string",
+          "description": "Prism language id for code preview (e.g. css, javascript, html)."
+        },
+        "code": {
+          "type": "string",
+          "description": "Raw source for code preview when type is code."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "iframe" } } },
+          "then": { "required": ["src"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "image" } } },
+          "then": { "required": ["src"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "code" } } },
+          "then": { "required": ["code"] }
+        }
+      ]
+    },
+    "swatch": {
+      "type": "object",
+      "required": ["hex"],
+      "additionalProperties": false,
+      "properties": {
+        "hex": {
+          "type": "string",
+          "pattern": "^#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$"
+        },
+        "label": { "type": "string" }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "nameEn",
+        "kind",
+        "preview",
+        "tags",
+        "colors",
+        "source"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string" },
+        "nameEn": { "type": "string" },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "design-system",
+            "color-palette",
+            "component",
+            "animation",
+            "style"
+          ]
+        },
+        "preview": { "$ref": "#/$defs/preview" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "colors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Macro color tone ids (e.g. dark, teal) for filtering."
+        },
+        "swatches": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/swatch" },
+          "description": "Full palette swatches; use for kind color-palette."
+        },
+        "framework": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tech": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "source": {
+          "type": "string",
+          "enum": ["internal", "external", "community"]
+        },
+        "links": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "figma": { "type": "string" },
+            "storybook": { "type": "string" },
+            "repo": { "type": "string" },
+            "docs": { "type": "string" }
+          }
+        },
+        "highlight": { "type": "string" },
+        "highlightEn": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "author": { "type": "string" }
+      }
+    }
+  }
+}

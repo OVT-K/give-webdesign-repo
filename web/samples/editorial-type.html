@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editorial type</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #faf8f5;
+      color: #1c1917;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    article { max-width: 36rem; margin: 0 auto; }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: clamp(0.95rem, 2vw, 1.05rem);
+      line-height: 1.65;
+      color: #57534e;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <h1>Tipografia editorial fluida</h1>
+    <p>Escala com clamp() para títulos e corpo, adequada a landing pages com narrativa longa e hierarquia suave.</p>
+  </article>
+</body>
+</html>
